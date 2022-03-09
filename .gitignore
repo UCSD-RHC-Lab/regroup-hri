@@ -1,0 +1,5 @@
+*.pyc
+*.jpg
+*.cfg
+*.names
+*.weights
