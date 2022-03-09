@@ -75,7 +75,9 @@ Additional libraries to install:
 Download [YOLOv3]( https://github.com/pjreddie/darknet) weights, configuration file, and class name files: 
 
 
-``` 
+```
+mkdir regoup/darknet
+mkdir regroup/darknet/model 
 cd regroup/darknet/model
 
 wget https://opencv-tutorial.readthedocs.io/en/latest/_downloads/549b18ea691a01b06e888f9bb6b35900/yolo1.py
