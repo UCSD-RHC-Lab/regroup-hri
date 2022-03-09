@@ -118,6 +118,15 @@ The input data for REGROUP is stored in the regroup/data folder (See example ima
 - `rgb/`: folder that stores RGB data
 - `det/`: folder that stores pedestrian detection files
 
+```
+mkdir data
+mkdir data/test
+mkdir data/test/group-01/rgb
+mkdir data/test/group-01/det
+```
+
+Here, [sequence] is group-01. 
+
 <p align="center"> 
 <img src="images/00307.png" width=860></img> 
 </p>
