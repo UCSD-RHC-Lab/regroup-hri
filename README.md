@@ -106,17 +106,17 @@ Download [network weights](https://drive.google.com/file/d/1iyHztyVMBqjwyFbZ__I4
 `images/`: images on GitHub README
 
 `data/`: stores the data set discussed in the [paper](https://cseweb.ucsd.edu/~lriek/)
-- `test`: stores the testing dataset
+- `test/`: stores the testing dataset
 
 ## Dataset Setup
 
 The input data for REGROUP is stored in the regroup/data folder (See example image in Figure 3). REGROUP requires pedestrian detections as input. The dataset should be formatted as follows:
 
 `data/`: stores the data set discussed in the [paper](https://dl.acm.org/doi/abs/10.5555/3523760.3523816)
-- `test`: stores the testing dataset
-- `[sequence]/`: stores small dataset with custom sequence name (user-defined) 
-- `rgb/`: folder that stores RGB data
-- `det/`: folder that stores pedestrian detection files
+- `test/`: stores the testing dataset
+-- `[sequence]/`: stores small dataset with custom sequence name (user-defined) 
+--- `rgb/`: folder that stores RGB data
+--- `det/`: folder that stores pedestrian detection files
 
 ```
 mkdir data
