@@ -146,9 +146,9 @@ The pedestrian detection files are formatted as (see Figure 3):
 
 ## Usage
 
-### Running REGROUP on a video sample. The REGROUP system outputs group tracks as bounding box coordinates in a video consistent with the [Multiple Object Tracking literature](https://motchallenge.net/). It uses the same format as pedestrian detections (see Figure 4 for an example):
+### Running REGROUP on a video sample. 
 
-
+The REGROUP system outputs group tracks as bounding box coordinates in a video consistent with the [Multiple Object Tracking literature](https://motchallenge.net/). It uses the same format as pedestrian detections (see Figure 4 for an example):
 
 The basic structure of commands is the following: 
 
@@ -240,8 +240,6 @@ Results for group detection experiments:
 <p align="center"> 
 <img src="images/detection.png" width=460></img> 
 </p>
-
-
 
 
 <b>Figure 5:</b>  Results for group detection and tracking ablation experiments: 
