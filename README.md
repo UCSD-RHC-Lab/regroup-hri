@@ -103,10 +103,10 @@ Download [network weights](https://drive.google.com/file/d/1iyHztyVMBqjwyFbZ__I4
 - `tools/`: stores helper scripts to generate pedestrian detections
 - `application_util/`: stores group tracking visualization code
 
+`images/`: images on GitHub README
+
 `data/`: stores the data set discussed in the [paper](https://cseweb.ucsd.edu/~lriek/)
 - `test`: stores the testing dataset
-
-- `images/`: images on GitHub README
 
 ## Dataset Setup
 
